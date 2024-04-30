@@ -1,4 +1,4 @@
-// src/main/jte/courses/index.jte
+src/main/jte/courses/index.jte
 @import org.example.hexlet.dto.courses.CoursesPage
 @param CoursesPage page
 

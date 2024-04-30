@@ -17,9 +17,9 @@ public class Template {
         });
 
         app.get("/courses", ctx -> {
-            var header = "Programming courses";
-            List<Course> db = new ArrayList<>();
-//            CoursesPage courseData = new CoursesPage();
+//            var courses = /* Список курсов извлекается из базы данных */
+//            List<Course> courses = new ArrayList<>();
+//            var header = "Курсы по программированию";
             var page = new CoursesPage();
             ctx.render("courses/index.jte", model("page", page));
         });
